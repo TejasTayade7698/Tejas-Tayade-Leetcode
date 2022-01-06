@@ -9,3 +9,7 @@ class Solution(object):
             return False
         else:
             return True
+
+#the list(set(nums)) creates a list with no repeated elements
+#if size of the new list 'unique_numbers' was same as the size of 'nums' then there were no #unique elements
+#if the size reduced, then common items were eliminated. That's it.
