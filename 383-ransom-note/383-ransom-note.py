@@ -10,12 +10,13 @@ class Solution(object):
             if i in dic:
                 dic[i]+=1
             else:
-                dic[i]=0
+                dic[i]=1
         
         
         for i in dic:
-            if magazine.count(i)<=dic[i]:
+            if magazine.count(i)<dic[i]:
                 return False
         return True
+        
             
         
