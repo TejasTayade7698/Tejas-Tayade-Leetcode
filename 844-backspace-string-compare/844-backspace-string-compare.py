@@ -23,7 +23,7 @@ class Solution(object):
                 t1.pop(-1)
         
         while len(s1)==len(t1):
-            return tuple(t1)==tuple(s1)
+            return t1==s1  # use tuples because its ordered and duplicated allowed
         
             
         
